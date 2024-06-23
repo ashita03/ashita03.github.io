@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extracurricular and Achievements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="desktop-nav">
+            <div class="logo"></div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#experience">Skills</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="work-experience.html">Work Experience</a></li>
+                    <li><a href="extracurricular.html">Achievements & Others</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Ashita Shetty</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="work-experience.html" onclick="toggleMenu()">Work Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    <li><a href="#extracurricular.html" onclick="toggleMenu()">Achievements & Others</a></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="extracurricular-achievements" class="extracurricular-background">
+        <p class="section__text__p1"><br /> <br /><b>Browse My Recent</b></p>
+        <h1 class="title">Achievements & Contributions</h1>
+        <div class="extracurricular-container">
+            <div class="extracurricular-entry">
+                <img src="./assets/Extra/TopDataScience_badge.png" alt="Achievement 1" class="achievement-pic" />
+                <div class="achievement-text">
+                    <h4> 💡 Top Data Science Voice on LinkedIn</h4>
+                    <p>Received the Top Data Science Voice recognition on LinkedIn
+                    </p>
+                </div>
+            </div>
+            <div class="extracurricular-entry">
+                <img src="./assets/Extra/MITSA.jpg" alt="Achievement 3" class="achievement-pic" />
+                <div class="achievement-text">
+                    <h4>Secretary at MITSA - Student body association for Masters
+                    </h4>
+                    <p>Assisting in students with information dissemination and acting as the bridge between the
+                        faculty and students</p>
+                </div>
+            </div>
+            <div class="extracurricular-entry">
+                <img src="./assets/Extra/Food_drive.JPG" alt="Achievement 2" class="achievement-pic" />
+                <div class="achievement-text">
+                    <h4>Community Volunteer - Food Drive</h4>
+                    <p>Volunteered at SOCH in collaboration with Nazareth Foundation</p>
+                    <p>Actively participated in a food drive by donating and conducting events</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &#169; 2024 Ashita Shetty. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
