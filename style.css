@@ -149,8 +149,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-    padding-top: 4vh;
-    height: 96vh;
+    padding-top: 10vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -170,7 +169,6 @@ section {
     background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
         url('./assets/try_bg.jpeg') no-repeat center center/cover;
     padding: 20px;
-    /* Optional: Add some padding if needed */
     position: relative;
 }
 
@@ -325,6 +323,10 @@ section {
 
 #projects {
     position: relative;
+    padding-top: 10vh;
+    /* Adjusts the top padding for better spacing */
+    margin-bottom: 5vh;
+    /* Adds bottom margin to prevent overlap */
 }
 
 .color-container {
@@ -348,6 +350,13 @@ section {
     border-color: rgb(163, 163, 163);
 }
 
+/* EXPERIENCE SECTION */
+
+#experience {
+    margin-bottom: 5vh;
+    /* Adds bottom margin to prevent overlap with projects */
+}
+
 /* CONTACT */
 
 #contact {
@@ -355,6 +364,8 @@ section {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    margin-top: 10vh;
+    /* Adjusts the top margin for better spacing */
 }
 
 .contact-info-upper-container {
@@ -427,218 +438,5 @@ footer p {
 /* Section Subtitle */
 .section__text__p1 {
     text-align: center;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #555;
-}
-
-/* Work Experience Container */
-.work-experience-details-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.work-details-container {
-    width: 80%;
-    max-width: 1000px;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Work Experience Entry */
-.work-experience-entry {
-    margin-bottom: 30px;
-    padding: 20px;
-    border-bottom: 1px solid #eee;
-}
-
-.work-experience-entry:last-child {
-    border-bottom: none;
-}
-
-/* Entry Title */
-.work-experience-entry h4 {
     font-size: 1.5em;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-/* Entry Details */
-.work-experience-entry p {
-    font-size: 1em;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-/* Key Achievements */
-.work-experience-entry ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    margin-top: 10px;
-}
-
-.work-experience-entry ul li {
-    font-size: 1em;
-    color: #555;
-    margin-bottom: 5px;
-}
-
-/* Icons */
-.icon {
-    width: 50px;
-    /* Set your preferred width */
-    height: auto;
-    /* Automatically adjust height to maintain aspect ratio */
-    display: block;
-    margin: 0 auto 20px;
-    object-fit: contain;
-    /* Ensure the image fits within the width/height constraints */
-}
-
-/* Button Styles */
-.btn-container .btn {
-    margin: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.btn-color-1 {
-    background-color: #333;
-}
-
-.btn-color-2 {
-    background-color: #555;
-}
-
-/* Navigation Styles */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-}
-
-/* Navigation Styles */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1 em;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Section Background */
-.extracurricular-background {
-    background: linear-gradient(rgba(211, 211, 211, 0.8),
-            rgba(255, 255, 255, 0.0)),
-        url('./assets/background.jpeg') no-repeat center center/cover;
-    padding: 40px 20px;
-    color: #333;
-}
-
-/* Section Title */
-.title {
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-/* Section Subtitle */
-.section__text__p1 {
-    text-align: center;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #555;
-}
-
-/* Extracurricular Container */
-.extracurricular-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-/* Extracurricular Entry */
-.extracurricular-entry {
-    display: flex;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    text-align: left;
-    flex-wrap: wrap;
-}
-
-/* Achievement Picture */
-.achievement-pic {
-    width: 270px;
-    height: auto;
-    border-radius: 10px;
-    margin-right: 20px;
-}
-
-/* Achievement Text */
-.achievement-text {
-    flex: 1;
-}
-
-.achievement-text h4 {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.achievement-text p {
-    font-size: 1em;
-    color: #666;
-    margin-bottom: 10px;
 }

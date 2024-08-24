@@ -1,3 +1,47 @@
+/* Add padding and margin adjustments for smaller screens */
+@media screen and (max-width: 1400px) {
+  #projects {
+    margin-top: 4rem;
+    /* Increase the margin at the top to add space */
+  }
+
+  #experience,
+  #projects,
+  #contact {
+    padding: 2rem 0;
+    /* Add vertical padding for all sections */
+    margin-bottom: 4rem;
+    /* Increase margin at the bottom for better separation */
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #projects {
+    margin-top: 3rem;
+  }
+
+  #experience,
+  #projects,
+  #contact {
+    padding: 1.5rem 0;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #projects {
+    margin-top: 2rem;
+  }
+
+  #experience,
+  #projects,
+  #contact {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+}
+
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
